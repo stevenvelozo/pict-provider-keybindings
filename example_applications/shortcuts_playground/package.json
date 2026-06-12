@@ -1,0 +1,47 @@
+{
+	"name": "pict-provider-keybindings-example-shortcuts-playground",
+	"version": "0.0.1",
+	"description": "Shortcuts Playground - interactive catalog of every pict-provider-keybindings feature",
+	"main": "source/Pict-Application-ShortcutsPlayground.js",
+	"scripts": {
+		"start": "node source/Pict-Application-ShortcutsPlayground.js",
+		"build": "npx quack build && npx quack copy",
+		"test": "echo \"no tests\" && exit 0"
+	},
+	"author": "steven velozo <steven@velozo.com>",
+	"license": "MIT",
+	"dependencies": {
+		"pict": "^1.0.372",
+		"pict-application": "^1.0.28",
+		"pict-view": "^1.0.68",
+		"pict-provider-keybindings": "file:../../"
+	},
+	"devDependencies": {
+		"quackage": "^1.3.0"
+	},
+	"copyFilesSettings": {
+		"whenFileExists": "overwrite"
+	},
+	"copyFiles": [
+		{
+			"from": "./html/*",
+			"to": "./dist/"
+		},
+		{
+			"from": "./css/*",
+			"to": "./dist/"
+		},
+		{
+			"from": "./node_modules/pict/dist/*",
+			"to": "./dist/"
+		}
+	],
+	"retold": {
+		"ExampleApplication": {
+			"Stage": true,
+			"Title": "Shortcuts Playground",
+			"Summary": "Interactive catalog of every pict-provider-keybindings primitive: app-global bindings, chords, key sequences, the cheatsheet, input guarding, suspend/resume, scopes, per-binding disable, and a live active-bindings list.",
+			"Complexity": "Intermediate"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "pict-provider-keybindings",
+	"Version": "1.0.0",
+	"Description": "Pict provider for centralized browser keyboard shortcuts — a registry of keystroke -> function-or-route bindings, each with a name, description, and optional help link. Views register/deregister bindings in their lifecycle; a built-in cheatsheet overlay shows what the keys do. Modern keydown + event.key, a Mod (Cmd/Ctrl) abstraction, key sequences, input/IME guarding, and per-binding disable.",
+	"GeneratedAt": "2026-06-10T22:24:17.939Z",
+	"GitCommit": "bf6df80"
+}

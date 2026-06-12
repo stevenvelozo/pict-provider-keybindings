@@ -1,0 +1,48 @@
+{
+	"name": "pict-provider-keybindings-example-kanban-shortcuts",
+	"version": "0.0.1",
+	"description": "Kanban Shortcuts - per-view binding lifecycle, route shortcuts, and scopes across a routed multi-view app",
+	"main": "source/Pict-Application-KanbanShortcuts.js",
+	"scripts": {
+		"start": "node source/Pict-Application-KanbanShortcuts.js",
+		"build": "npx quack build && npx quack copy",
+		"test": "echo \"no tests\" && exit 0"
+	},
+	"author": "steven velozo <steven@velozo.com>",
+	"license": "MIT",
+	"dependencies": {
+		"pict": "^1.0.372",
+		"pict-application": "^1.0.28",
+		"pict-view": "^1.0.68",
+		"pict-router": "^1.0.4",
+		"pict-provider-keybindings": "file:../../"
+	},
+	"devDependencies": {
+		"quackage": "^1.3.0"
+	},
+	"copyFilesSettings": {
+		"whenFileExists": "overwrite"
+	},
+	"copyFiles": [
+		{
+			"from": "./html/*",
+			"to": "./dist/"
+		},
+		{
+			"from": "./css/*",
+			"to": "./dist/"
+		},
+		{
+			"from": "./node_modules/pict/dist/*",
+			"to": "./dist/"
+		}
+	],
+	"retold": {
+		"ExampleApplication": {
+			"Stage": true,
+			"Title": "Kanban Shortcuts",
+			"Summary": "A routed multi-view app showing per-view binding lifecycle (shortcuts auto-evict when you navigate away), Route shortcuts (g b / g l) that drive pict-router, and a view-local scope. The live cheatsheet changes as you move between views.",
+			"Complexity": "Advanced"
+		}
+	}
+}

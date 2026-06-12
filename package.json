@@ -6,7 +6,9 @@
 	"scripts": {
 		"start": "node source/Pict-Provider-Keybindings.js",
 		"test": "npx mocha -u tdd --exit --timeout 5000 test/Pict-Keybindings_tests.js",
-		"coverage": "npx nyc --reporter=lcov --reporter=text npm test"
+		"coverage": "npx nyc --reporter=lcov --reporter=text npm test",
+		"example": "npx quack examples",
+		"docs": "npx quack prepare-docs"
 	},
 	"repository": {
 		"type": "git",
@@ -20,6 +22,7 @@
 	"devDependencies": {
 		"fable": "^3.1.75",
 		"mocha": "^10.2.0",
+		"pict-docuserve": "^1.4.4",
 		"quackage": "^1.3.0"
 	}
 }

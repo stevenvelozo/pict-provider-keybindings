@@ -1,0 +1,90 @@
+{
+	"Generated": "2026-06-10T22:24:17.677Z",
+	"Mode": "module",
+	"GitHubOrg": "fable-retold",
+	"DefaultBranch": "master",
+	"Module": {
+		"Name": "pict-provider-keybindings",
+		"Repo": "pict-provider-keybindings",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quick Start",
+						"Path": "Quick_Start.md"
+					}
+				]
+			},
+			{
+				"Title": "Architecture",
+				"Children": [
+					{
+						"Title": "Design Overview",
+						"Path": "Architecture.md"
+					}
+				]
+			},
+			{
+				"Title": "Reference",
+				"Children": [
+					{
+						"Title": "Implementation Reference",
+						"Path": "Implementation_Reference.md"
+					},
+					{
+						"Title": "Function Reference",
+						"Path": "Function_Reference.md"
+					}
+				]
+			},
+			{
+				"Title": "Examples",
+				"Children": [
+					{
+						"Title": "Shortcuts Playground",
+						"Path": "examples/shortcuts_playground/README.md"
+					},
+					{
+						"Title": "Kanban Shortcuts",
+						"Path": "examples/kanban_shortcuts/README.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			".nojekyll",
+			"Architecture.md",
+			"Function_Reference.md",
+			"Implementation_Reference.md",
+			"Quick_Start.md",
+			"README.md",
+			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
+			"_topbar.md",
+			"_version.json",
+			"examples/README.md",
+			"examples/kanban_shortcuts/README.md",
+			"examples/kanban_shortcuts/index.html",
+			"examples/kanban_shortcuts/kanban-shortcuts.css",
+			"examples/kanban_shortcuts/pict-provider-keybindings-example-kanban-shortcuts.compatible.min.js",
+			"examples/shortcuts_playground/README.md",
+			"examples/shortcuts_playground/index.html",
+			"examples/shortcuts_playground/pict-provider-keybindings-example-shortcuts-playground.compatible.min.js",
+			"examples/shortcuts_playground/shortcuts-playground.css",
+			"index.html",
+			"retold-catalog.json",
+			"retold-keyword-index.json"
+		]
+	},
+	"Groups": []
+}

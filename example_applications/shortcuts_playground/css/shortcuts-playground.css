@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #111827;
+	background: #f9fafb;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Pict Example Header */
+.pict-example-header { display: flex; align-items: stretch; background: #312e81; border-bottom: 3px solid #f59e0b; }
+.pict-example-badge { background: #f59e0b; color: #1f2937; padding: 0.6rem 1rem; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; display: flex; align-items: center; gap: 0.5rem; }
+.pict-example-badge svg { width: 14px; height: 14px; fill: #1f2937; flex-shrink: 0; }
+.pict-example-app-name { padding: 0.6rem 1rem; color: #e0e7ff; font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; }
+.pict-example-module { margin-left: auto; padding: 0.6rem 1rem; color: #a5b4fc; font-size: 0.75rem; display: flex; align-items: center; letter-spacing: 0.03em; }
